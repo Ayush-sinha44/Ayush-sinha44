@@ -128,13 +128,13 @@ A machine learning project that segments customers into distinct groups based on
 
 ## 📊 GitHub Stats
 
-```markdown
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayush-sinha44&show_icons=true&theme=tokyonight)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-sinha44&layout=compact&theme=tokyonight)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Ayush-sinha44&theme=tokyonight)
-```
+
 
 ## 📫 Connect With Me
 
