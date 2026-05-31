@@ -94,27 +94,30 @@ Users configure their project from a React frontend, and a Spring Boot backend l
 * Apache Commons Compress
 
 ---
+### NightWatchLLM — LLM Guardrails Gateway
+A production-grade middleware service that sits between your application and any
+LLM API, enforcing safety and compliance rules before and after every request.
 
-### 📊 Customer Segmentation using K-Means
+#### What it does
+* Blocks prompt injection and jailbreak attempts before they reach the LLM
+* Detects and strips PII — emails, phone numbers, credit cards, Aadhaar numbers
+* Filters toxic and harmful LLM responses using a two-stage rule-based and LLM judge pipeline
+* Authenticates clients via API keys so only authorized users can access the gateway
 
-A machine learning project that segments customers into distinct groups based on purchasing behavior.
+#### How it works
+Every request passes through an input guardrail, then the LLM, then an output
+guardrail — each stage either passes or blocks with a logged reason.
 
-#### ✨ Highlights
-
-* Data preprocessing and feature scaling
-* Optimal cluster selection using the Elbow Method
-* Visualization of clusters
-* Insights for targeted marketing strategies
-
-#### 🧰 Stack
-
+#### Stack
 * Python
-* NumPy
-* Pandas
-* Matplotlib
-* Scikit-learn
+* FastAPI
+* Groq API (llama-3.3-70b-versatile)
+* Pydantic
+* Uvicorn
 
----
+#### Status
+Actively being built. Authentication is live. Rate limiting, audit logging,
+and a dashboard are coming in the next phases.
 
 ## 📈 Current Focus
 
