@@ -129,14 +129,6 @@ and a dashboard are coming in the next phases.
 
 ---
 
-## 📊 GitHub Stats
-
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayush-sinha44&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-sinha44&layout=compact&theme=tokyonight)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Ayush-sinha44&theme=tokyonight)
 
 
 ## 📫 Connect With Me
@@ -147,14 +139,7 @@ and a dashboard are coming in the next phases.
 
 ---
 
-## ⚡ Fun Facts
 
-* I enjoy analyzing complex systems and abstractions.
-* I like building tools that automate developer workflows.
-* I study both engineering and the ideas behind how humans think and solve problems.
-* I play chess and enjoy strategic thinking.
-
----
 
 
 
